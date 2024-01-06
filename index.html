@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SURVEY FORM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <main>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This questionnaire is part of study of computer usage. Your participation in study is voluntary, and your answers will form part of statistical study and will not identify you as an individual.</p>
+    <div class="menu">
+    <fieldset>
+    <form id="survey-form">
+        <label id="name-label" text="name">Name</label><input id="name" type="text" placeholder="My name is..." required></input></label></form>
+        <form id="survey-form"><label id="email-label" text="email">Email</label><input id="email" type="email" placeholder="My email..." required></input></label></form>
+        <form id="survey-form"><label id="number-label" text="number">Number</label><input id="number" type="number" min="18" max="65" placeholder="My age in years"></input></label></form>
+        </fieldset>
+        <fieldset>
+          <form id="survey-form">
+        Level skill
+        <select id="dropdown">
+        <option value="">Select one</option>
+      <option value="">No knowledge</option>
+      <option value="">IT university</option>
+      </select></form>
+
+      <form id="survey-form">
+        Which is your favorite OS?
+     <div><input type="radio" name="os" value="mac os"><label for="Mac OS">Mac OS</label></input>
+     <input type="radio" name="os" value="windows"><label for="windows">Windows</label></input>
+     <input type="radio" name="os" value="freebsd"><label for="freebsd">freeBSD</label></input>
+     </div></form>
+
+     <form id="survey-form">
+       Which hardware do you own?
+       <div><input type="checkbox" value="desktop">Desktop</input></div>
+       <div><input type="checkbox" value="laptop">Laptop</input></div>
+       <div><input type="checkbox" value="mini pc">Mini PC</input></div>
+       <div><input type="checkbox" value="server">Server</input></div>
+       <div><input type="checkbox" value="single-board-computer">Single Board Computer</input></div>
+       </form>
+       <form  id="survey-form">
+         <label for="comments">Any comments?</label></form>
+         <form id="survey-form"><textarea id="comments" name="comments">Enter your comment here...</textarea>
+         </form>
+         <form id="survey-form">
+         <input id="submit" type="submit">
+         </form>
+         </main>
+         </body>
+         </div>
+         </html>
